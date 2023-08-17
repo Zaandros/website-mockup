@@ -12,13 +12,25 @@ body {
    
     background-color: #1F2937;
     padding-bottom: 40px;
-    border: 2px solid green;
 }
 
 .second-quarter {
-    border: 1px solid red;
     padding-top: 20px;
     text-align: center;
+}
+
+.third-quarter {
+    display: flex;
+    text-align: center;
+    background-color: #e5e7eb;
+    align-items: center;
+}
+
+.fourth-quarter {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
@@ -33,6 +45,7 @@ body {
     justify-content: center;
     font-weight: 700;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .header {
@@ -54,6 +67,15 @@ body {
     text-decoration: none;
     color: lightslategray;
     
+}
+
+.footer {
+    display: flex;
+    padding: 15px;
+    background-color: #1F2937;;
+    color: white;
+    height: fit-content;
+    justify-content: center;
 }
 
 .hero-content {
@@ -118,7 +140,6 @@ body {
 
 .images {
     display: flex;
-    border: 1px solid blue;
     justify-content: center;
     gap: 52px;
     margin-left: 80px;
@@ -131,4 +152,51 @@ body {
     height: 150px;
     border: 3px solid lightskyblue;
     border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    margin: 0px 80px;
+    justify-content: center;
+    align-items: end
+        
+}
+
+.paragraph {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.quote {
+    font-weight: bold;
+    display: flex;
+    align-items: end;
+}
+
+.popup {
+    display: flex;
+    color: white;
+    background-color: #3882f6;
+    text-align: left;
+    border-radius: 5px;
+    margin: 0px 80px;
+    width: 1426px;
+    padding: 10px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup .sign-up {
+    display: flex;
+    border: 2px solid white;
+    height: fit-content;
+}
+
+.popup-header {
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.popup-text {
+    margin-top: 0px;
 }
